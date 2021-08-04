@@ -1,0 +1,67 @@
+
+
+body{
+background-image: url(sfondo.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.Container{
+  width: 55%;
+  border: 1px solid Black;
+  border-radius: 5%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5% 5% 8%;
+}
+/* Inizio contenuto Container */
+
+img{
+  display: block;
+margin:auto;
+width: 200px;
+}
+
+.Titolo{
+  padding-left: 24%;
+  color: #21ef09;
+  font-size: 30px;
+}
+
+.Prenotazioni{
+  display: block;
+  height: 30px;
+  background-color: #21ef09;
+  padding-left: 33%;
+  padding-right: 33%;
+  padding-top: 1%;
+}
+
+
+button{
+  font-size: 10px;
+}
+
+/* Inizio contenuto Main */
+
+main{
+  color: White;
+}
+
+Main .M1,.M2,.M3{
+  display: inline-block;
+}
+
+.Energia,.due,.tre{
+  background-color: orange;
+  height: 20px;
+  width: 40%;
+  border-radius: 5px;
+}
+.due{
+  background-color: #15ad15;
+  width: 75%;
+}
+.tre{
+  background-color: #a54141;
+  width: 18%;
+}
